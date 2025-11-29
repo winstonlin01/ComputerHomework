@@ -1,0 +1,29 @@
+{
+  "algorithm": {
+    "initial_temperature": 3000.0,
+    "cooling_rate": 0.99,
+    "min_temperature": 0.01,
+    "max_iterations": 2000,
+    "iterations_per_temp": 10
+  },
+  "optimization": {
+    "problem_type": "structure",
+    "num_nodes": 8,
+    "max_stress": 100.0,
+    "search_space": {
+      "x_min": 0,
+      "x_max": 100,
+      "y_min": 0,
+      "y_max": 100
+    }
+  },
+  "display": {
+    "update_interval": 10,
+    "show_animation": true,
+    "window_size": {
+      "width": 1200,
+      "height": 800
+    }
+  }
+}
+
